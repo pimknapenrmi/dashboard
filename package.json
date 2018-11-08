@@ -1,14 +1,10 @@
 {
   "name": "dashboardwebhook",
   "version": "1.0.0",
-  "description": "De descrptie van de functionaliteit.",
+  "description": "De descriptie van de functionaliteit.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions:dashboardwebhook",
-    "shell": "firebase functions:shell",
-    "logs": "firebase functions:log"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "8.x"
